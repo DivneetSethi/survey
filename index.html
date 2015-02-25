@@ -1,0 +1,245 @@
+﻿<!--File: index.html 
+    Author: Divneet Singh Sethi 
+    Desription: Pages for mobile survey -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <title>Divneet - Personlaity Survey</title>
+
+    <!-- CSS Section -->
+    <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="CSS/myTheme.css" rel="stylesheet" />
+    <link href="CSS/Mobile_StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body onload="init();">
+
+    <!-- Home Page Wrapper-->
+    <div data-role="page" id="home">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2 style="color:#f7931e">Personality Survey</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar" class="ui-btn-a">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#survey" data-icon="alert" data-transition="fade">Survey</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="fade">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+            <p style="text-align:center"><img src="assets/images/ColourWheel.png" /></p>
+            </div>
+            <footer data-role="footer">
+                <h4>&copy;Copyright Divneet Sethi 2015</h4>
+            </footer>
+        </div>
+
+
+    <!-- Survey Page Wrapper-->
+    <div data-role="page" id="survey">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2 style="color:#f7931e">Survey Questions</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#survey" data-icon="alert" class="ui-btn-active ui-state-persist" data-transition="fade">Survey</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="fade">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+            <!-- Question 1-->
+            <h4>Q1. You prefer to keep your appearance:</h4>
+            <input type="radio" name="ques1" id="ques1opt1" />
+            <label for="ques1opt1">A) Functional</label>
+            <input type="radio" name="ques1" id="ques1opt2" />
+            <label for="ques1opt2">B) Fashionable</label>
+            <input type="radio" name="ques1" id="ques1opt3" />
+            <label for="ques1opt3">C) Casual</label>
+            <input type="radio" name="ques1" id="ques1opt4" />
+            <label for="ques1opt4">D) Conservative</label><hr />
+            <br />
+            <!-- Question 2-->
+            <h4>Q2. What types of goals do you set for yourself?</h4>
+            <input type="radio" name="ques2" id="ques2opt1" />
+            <label for="ques2opt1">A) Challenging Goals</label>
+            <input type="radio" name="ques2" id="ques2opt2" />
+            <label for="ques2opt2">B) I don’t Set Goals</label>
+            <input type="radio" name="ques2" id="ques2opt3" />
+            <label for="ques2opt3">C) Short-­‐Term Goals</label>
+            <input type="radio" name="ques2" id="ques2opt4" />
+            <label for="ques2opt4">D) Long-­‐Term Goals</label><hr />
+            <br />
+            <!-- Question 3-->
+            <h4>Q3. Your optimal work environment is:</h4>
+            <input type="radio" name="ques3" id="ques3opt1" />
+            <label for="ques3opt1">A) Busy & Efficient</label>
+            <input type="radio" name="ques3" id="ques3opt2" />
+            <label for="ques3opt2">B) Stimulating & Social</label>
+            <input type="radio" name="ques3" id="ques3opt3" />
+            <label for="ques3opt3">C) Relaxed & Friendly</label>
+            <input type="radio" name="ques3" id="ques3opt4" />
+            <label for="ques3opt4">D) Structured & Organized</label><hr />
+            <br />
+            <!-- Question 4-->
+            <h4>Q4. Which situation do you dislike the MOST?</h4>
+            <input type="radio" name="ques4" id="ques4opt1" />
+            <label for="ques4opt1">A) Losing control</label>
+            <input type="radio" name="ques4" id="ques4opt2" />
+            <label for="ques4opt2">B) Being excluded</label>
+            <input type="radio" name="ques4" id="ques4opt3" />
+            <label for="ques4opt3">C) Being devalued</label>
+            <input type="radio" name="ques4" id="ques4opt4" />
+            <label for="ques4opt4">D) Being unprepared</label><hr />
+            <br />
+            <!-- Question 5-->
+            <h4>Q5. When given a high­‐profile task you focus on:</h4>
+            <input type="radio" name="ques5" id="ques5opt1" />
+            <label for="ques5opt1">A) Getting the job done</label>
+            <input type="radio" name="ques5" id="ques5opt2" />
+            <label for="ques5opt2">B) Networking with others</label>
+            <input type="radio" name="ques5" id="ques5opt3" />
+            <label for="ques5opt3">C) Maintaining relationships</label>
+            <input type="radio" name="ques5" id="ques5opt4" />
+            <label for="ques5opt4">D) Following the Process</label><hr /><br /><br />
+            <p style="text-align:center"><a href="#quizConfirm" class="ui-btn-a ui-btn" data-rel="popup" onclick="calcResult();">Submit</a></p>
+        </div>
+
+        <!-- Pop-up for result-->
+        <div id="quizConfirm" data-role="popup" data-dissmissable="false" data-theme="b">
+            <h4 style="text-align:center">Survey Result<br />Your selections were as follows</h4>
+            <table border="1" style="border-bottom-width:thick">
+                <tr>
+                    <td>
+                        Option A
+                    </td>
+                    <td>
+                        Option B
+                    </td>
+                    <td>
+                        Option C
+                    </td>
+                    <td>
+                        Option D
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="resultOptA">0</label>
+                    </td>
+                    <td>
+                        <label id="resultOptB">0</label>
+                    </td>
+                    <td>
+                        <label id="resultOptC">0</label>
+                    </td>
+                    <td>
+                        <label id="resultOptD">0</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <a href="#home" data-role="button">Ok</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+  
+        <footer data-role="footer">
+            <h4>&copy;Copyright Divneet Sethi 2015</h4>
+        </footer>
+    </div>
+
+
+    <!-- Contact Me Page Wrapper-->
+    <div data-role="page" id="contact">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2 style="color:#f7931e">Contact Me</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#survey" data-icon="alert" data-transition="fade">Survey</a></li>
+                    <li><a href="#contact" class="ui-btn-active ui-state-persist" data-icon="info" data-transition="fade">Contact Me</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+
+            <!-- COntact me form -->
+            <form>
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <label>Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Number:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtNumber" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtEmail" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <a href="#home" class="ui-btn-a" data-role="button" onclick="validateName();">Contact Me</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <footer data-role="footer">
+            <h4>&copy;Copyright Divneet Sethi 2015</h4>
+        </footer>
+    </div>
+
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/jquery-1.8.0.min.js"></script>
+    <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="Scripts/Mobile_JavaScript.js"></script>
+</body>
+</html>

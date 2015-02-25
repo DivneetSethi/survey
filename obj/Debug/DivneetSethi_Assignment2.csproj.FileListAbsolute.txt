@@ -1,0 +1,11 @@
+E:\Sem 6\Emerging Technologies\Assignments\Mobile Portfolio - Assignment 2\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\bin\DivneetSethi_Assignment2.dll.config
+E:\Sem 6\Emerging Technologies\Assignments\Mobile Portfolio - Assignment 2\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\bin\DivneetSethi_Assignment2.dll
+E:\Sem 6\Emerging Technologies\Assignments\Mobile Portfolio - Assignment 2\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\bin\DivneetSethi_Assignment2.pdb
+E:\Sem 6\Emerging Technologies\Assignments\Mobile Portfolio - Assignment 2\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\obj\Debug\DivneetSethi_Assignment2.csprojResolveAssemblyReference.cache
+E:\Sem 6\Emerging Technologies\Assignments\Mobile Portfolio - Assignment 2\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\obj\Debug\DivneetSethi_Assignment2.dll
+E:\Sem 6\Emerging Technologies\Assignments\Mobile Portfolio - Assignment 2\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\obj\Debug\DivneetSethi_Assignment2.pdb
+E:\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\bin\DivneetSethi_Assignment2.dll
+E:\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\bin\DivneetSethi_Assignment2.pdb
+E:\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\obj\Debug\DivneetSethi_Assignment2.csprojResolveAssemblyReference.cache
+E:\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\obj\Debug\DivneetSethi_Assignment2.dll
+E:\Code\DivneetSethi_Assignment2\DivneetSethi_Assignment2\obj\Debug\DivneetSethi_Assignment2.pdb
